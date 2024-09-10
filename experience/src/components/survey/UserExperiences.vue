@@ -40,7 +40,7 @@ export default {
     loadExperiences() {
       this.isLoading = true;
       this.error = null;
-      fetch('https://form-57368-default-rtdb.firebaseio.com//surveys.json')
+      fetch('')
         .then((response) => {
           if (response.ok) {
             return response.json();

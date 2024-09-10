@@ -63,7 +63,7 @@ export default {
       // });
 
       this.error = null;
-      fetch('https://form-57368-default-rtdb.firebaseio.com/surveys.json', {
+      fetch('', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
